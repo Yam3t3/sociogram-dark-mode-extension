@@ -1,0 +1,13 @@
+{
+  "name": "Sociogram Dark Mode",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Sociogram's stylish dark mode for night browsing.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [ "https://*.sociogram.org/*" ],
+      "css": ["dark-theme.css"]
+    }
+  ]
+}
