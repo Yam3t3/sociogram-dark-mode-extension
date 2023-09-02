@@ -1,7 +1,6 @@
 # Sociogram Dark Mode Chrome Extension
 
-![image](https://github.com/Yam3t3/sociogram-dark-mode-extension/assets/143183612/23aad938-217c-4e2d-abcf-366ec18aed00)
-
+![darkmode](https://github.com/Yam3t3/sociogram-dark-mode-extension/assets/143183612/09a93bf2-193b-43f6-9493-abb22a5404e5)
 
 ## Overview
 
