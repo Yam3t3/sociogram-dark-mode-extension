@@ -5,23 +5,31 @@
     --border-color: #38444d;
   }
   
-  body {
-    background-color: var(--background-color);
-    color: var(--text-color)!important;
+  :root {
+    --background-color: #15202b;
+    --text-color: #dfdfdf;
+    --light-text-color: #f7f9f9;
+    --border-color: #38444d;
   }
   
-  body .bg-white,
-  body .bg-gray-50 {
-    background-color: var(--background-color);
-    color: var(--light-text-color);
+  body,
+  body header {
+    background-color: var(--background-color)!important;
+    color: var(--text-color)!important;
+  }
+
+  body header a {
+    color: var(--text-color);
   }
   
   body button, input, optgroup, select, textarea, body .text-black, body .text-gray-900 {
     color: var(--text-color);
   }
   
-  body .header.svelte-89vphq {
-    background-color: inherit;
+  body .bg-white,
+  body .bg-gray-50,
+  body .modal .content {
+    background-color: var(--background-color);
     color: var(--light-text-color);
   }
 
@@ -34,8 +42,8 @@
   }
   
   input#search,
-  body .category.svelte-zw5ggt {
-    background-color: inherit;
+  body a span.category {
+    background-color: inherit!important;
   }
   
   body .border-gray-100,
@@ -75,5 +83,3 @@
   body .sociogram-input.svelte-1u5mtlw:empty:before {
     font-size: 20px;
   }
-
-  
